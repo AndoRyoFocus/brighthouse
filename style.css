@@ -220,17 +220,17 @@ main{
 
 
 .main-visual{
-    height: 92vh;
+    height: 100vh;
     position: relative;
 }
 
 .video{
     width: 100%;
-    height: 92vh;
+    height: 100vh;
     object-fit: none;
     position: fixed;
     z-index: -10;
-    object-position: left bottom;
+    object-position: left -220px;
 }
 
 @media screen and (max-width:960px){
@@ -238,9 +238,9 @@ main{
         height: 80vh;
     }
     .video{
-        height: 520px;
+        height: 590px;
         object-fit: cover;
-        top: 72px;
+        object-position: left bottom;
     }
 }
 
